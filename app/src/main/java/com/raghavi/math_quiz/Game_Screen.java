@@ -115,7 +115,10 @@ outState.putInt("Time_Counter",TimeCounter);
                 //button3.setBackgroundColor(Color.DKGRAY);
 
                 ++count;
-                count = count % (questions.size());
+
+                //What is this statement?
+                //count = count % (questions.size());
+
                 if (TimeCounter > 0) {
 
                     //addition
@@ -162,11 +165,11 @@ outState.putInt("Time_Counter",TimeCounter);
                     ans3.add(String.valueOf(num1 / num2));
                     answers.add(String.valueOf(num1 / num2));
 
-
-                    textView.setText((String) questions.get(count+1));
-                    button1.setText((String) ans1.get(count+1));
-                    button2.setText((String) ans2.get(count+1));
-                    button3.setText((String) ans3.get(count+1));
+                    //You had count + 1 (Not necessary when you've already incremented)
+                    textView.setText((String) questions.get(count));
+                    button1.setText((String) ans1.get(count));
+                    button2.setText((String) ans2.get(count));
+                    button3.setText((String) ans3.get(count));
 
 //addition
 
