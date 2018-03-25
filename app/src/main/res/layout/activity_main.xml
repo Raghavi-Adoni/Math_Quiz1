@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.raghavi.math_quiz.MainActivity">
+
+    <TextView
+        android:id="@+id/wel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="MATH IT UP"
+        android:textColor="#191970"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:text="Please click on the START button to continue"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/start"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/msg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="159dp"
+        android:text="START"
+       android:background="@drawable/play"
+        />
+
+</RelativeLayout>
+

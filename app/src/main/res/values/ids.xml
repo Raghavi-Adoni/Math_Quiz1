@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="next" type="id" />
+    <item name="opt1" type="id" />
+    <item name="timer" type="id" />
+    <item name="card_view" type="id" />
+</resources>
